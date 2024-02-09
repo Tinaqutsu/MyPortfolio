@@ -1,0 +1,140 @@
+/* Profile.css */
+
+.home-container {
+    display: flex;
+    align-items: flex-start; /* Align content to the top */
+    height: 100vh;
+  }
+  
+  .home-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imag img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 300px; /* Adjust the margin as needed */
+    margin-top: 50px;
+  }
+  
+  .hello-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .name {
+    color: rgba(177, 41, 90, 0.79);
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  .button-container {
+    display: flex; /* Use flexbox to align buttons in the same line */
+    margin-top: 50px;
+  }
+  
+  .button {
+    margin-right: 120px; /* Adjust the margin as needed */
+  }
+  
+  .button button,
+  .button-hire button {
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+  }
+  
+  .button button {
+    background-color: rgba(177, 41, 90, 0.79);
+    color: #fff;
+  }
+  
+  
+  .button button:hover,
+  .button-hire button:hover {
+    background-color: rgb(238, 17, 153); /* Change to the desired hover background color */
+    color: #fff; /* Change to the desired hover text color */
+    border-color: rgb(238, 17, 153); /* Change to the desired hover border color */
+  }
+  
+  .icons {
+    display: flex;
+    gap: 30px; /* Add space between icons */
+    margin-top: 30px; /* Adjust margin as needed */
+  }
+  
+  .icons i {
+    font-size: 30px; /* Increase the icon size */
+    color: rgba(36, 35, 62, 1); /* Change to the desired icon color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for smooth color change and zoom effect on hover */
+  }
+  
+  .icons i:hover {
+    color:  rgb(238, 17, 153); /* Change to the desired hover color */
+    transform: scale(1.7); /* Zoom in effect on hover, adjust the scale factor as needed */
+  }
+  
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:rgba(45, 22, 2, 1); /* Adjust the text color as needed */
+    margin-top: 0;
+  }
+  
+ 
+  
+  .image-container img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    object-fit: cover; /* Ensure the background image covers the entire container */
+    z-index: -1; /* Set a lower z-index to place it behind the text */
+  }
+  
+  img {
+    width: 70%;
+  }
+
+  .imag img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 300px; /* Adjust the margin as needed */
+    margin-top: 50px;
+  }
+
+  #photo {
+    max-width: 90%;
+    height: auto;
+    margin-left: 300px; /* Adjust the margin as needed */
+    margin-top: 50px;
+  }

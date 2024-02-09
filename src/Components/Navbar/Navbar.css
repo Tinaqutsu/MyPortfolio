@@ -1,0 +1,56 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 50px;
+  }
+  
+  #navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  #navbar li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0e0d0d;
+    transition: 0.3s ease-in-out;
+  }
+  
+  #navbar li a:hover::after,
+  #navbar li a.active::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: rgb(238, 17, 153);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  
+  #navbar li a:hover {
+    color: rgb(238, 17, 153);
+  }
+  
+  .contact-button button {
+    padding: 7px 20px;
+    background-color: rgba(177, 41, 90, 0.79);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .contact-button button:hover {
+    background-color: rgb(238, 17, 153);
+  }
+
+  #navbar img {
+    margin-right: auto; /* Move the logo to the left */
+    width: 90px; /* Set the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
