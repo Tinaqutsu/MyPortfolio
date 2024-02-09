@@ -16,6 +16,7 @@ export default function Navbar() {
               <li><a href='#'>Skills</a></li>
               <div className="contact-button">
                 <button>Contact me</button>
+                
               </div>
           </ul>
         

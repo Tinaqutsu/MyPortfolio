@@ -17,7 +17,6 @@ export default function Home() {
               <h1> Hi,</h1>
               <h3>
                 I'm Thina <span className='name'>Qutsu</span> 
-                {/* Thina profile name */}
               </h3>
               <p>
                 a Front-end Developer <br />
