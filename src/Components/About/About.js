@@ -16,7 +16,8 @@ function About() {
                 that have shaped my perspectives and fueled my curiosity.<br/>
                 I am a passionate young woman with strong interpersonal skills<br/>
                  and good communication skills. Through my education and hands on experience, <br/>
-                 I have gained a strong foundation in software development, web design, UX and UI design.
+                 I have gained a strong foundation in software development, web design,
+                 <br/> UX and UI design.
                 </p>
             </div>
         </div>
