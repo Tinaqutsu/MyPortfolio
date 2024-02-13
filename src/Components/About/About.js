@@ -1,13 +1,16 @@
 import React from 'react'
 import Pic from './Photos/Pic.png';
+import './aboutt.css';
 
 function About() {
   return (
-    <section>
+    <div className='about-page'> 
         <h2>About</h2>
-        <div>
+        <div className='pic-container'>
             <img src={Pic} alt='My picture'/>
-            <div>
+        </div>
+
+        <div className='content'>
                 <h3>Junior Software Developer</h3>
                 <p>
                 I'm a Junior Software developer, but more than that, <br/>
@@ -20,9 +23,8 @@ function About() {
                  <br/> UX and UI design.
                 </p>
             </div>
-        </div>
-    </section>
-  )
+            </div>
+  );
 }
 
 export default About

@@ -1,5 +1,8 @@
 /* Profile.css */
 
+.home{
+  background-color: rgba(242, 217, 208, 1);
+}
 .home-container {
     display: flex;
     align-items: flex-start; /* Align content to the top */

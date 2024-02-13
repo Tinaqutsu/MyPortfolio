@@ -1,0 +1,30 @@
+.skills-page {
+  background-color: rgba(242, 217, 208, 1);
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+}
+
+.html-img {
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  margin: 20px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.html-img:hover {
+  background-color: #f0f0f0; /* Light color on hover */
+}
+
+.large-text {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+
+.skills-page h5 {
+  text-align: center; /* Center the h5 element */
+}
+
+  
