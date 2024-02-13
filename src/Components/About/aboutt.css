@@ -1,6 +1,5 @@
 
 .about-page {
-    background-color:rgba(242, 217, 208, 1);
     height: 100vh;
     position: relative; /* Adding relative positioning to use absolute positioning for circle and circ */
 }
