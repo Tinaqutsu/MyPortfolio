@@ -3,7 +3,8 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
-import Skills from './Components/Skills/Skills'
+import Skills from './Components/Skills/Skills';
+import Contacts from './Components/Contacts/Contacts';  
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Home />
      <About/>
      <Skills />
+     <Contacts/>
     </div>
   );
 }

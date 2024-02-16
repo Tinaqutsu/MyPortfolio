@@ -1,0 +1,58 @@
+.Contact-page {
+    padding: 20px; /* Add padding around the component */
+}
+  
+.contact-info {
+    margin-bottom: 20px; /* Add margin at the bottom of the contact info */
+}
+  
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between each contact item */
+    padding-left: 30px;
+}
+  
+.contact-item .icon {
+    margin-right: 10px; /* Add margin between the icon and text */
+}
+  
+.right-contact {
+    margin-top: 100px; /* Add margin at the top of the right contact section */
+}
+  
+.input-control {
+    margin-bottom: 15px; /* Add margin between each input control */
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Align items vertically */
+}
+  
+.input-control label {
+    flex-basis: 30%; /* Adjust label width */
+}
+  
+.input-control input,
+.input-control textarea {
+    flex-grow: 1; /* Input takes remaining space */
+    padding: 15px;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+}
+  
+.submit-btn {
+    margin-top: 20px; /* Add margin at the top of the submit button */
+}
+  
+.main-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.main-btn:hover {
+    background-color: #0056b3;
+}
